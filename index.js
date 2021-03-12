@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const MjpegProxy = require('./mjpeg-proxy').MjpegProxy;
 const express = require('express');
 const fs = require('fs');
