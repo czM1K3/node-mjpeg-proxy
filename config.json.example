@@ -1,0 +1,9 @@
+{
+    "port": 8080,
+    "cams": [
+        {
+            "address": "address",
+            "name": "name"
+        }
+    ]
+}

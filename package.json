@@ -3,18 +3,21 @@
   "version": "0.2.0",
   "description": "MJPEG Proxy",
   "license": "MIT",
-  "author": { 
-    "name" : "Georges-Etienne Legendre",
-    "email": "legege@legege.com",
-    "url": "http://legege.com"
+  "scripts": {
+    "run": "node index.js"
   },
-  "repository": { 
+  "author": {
+    "name": "Michal Maděra",
+    "email": "misamadera1@gmail.com",
+    "url": "https://madsoft.cz"
+  },
+  "repository": {
     "type": "git",
-    "url": "git://github.com/legege/node-mjpeg-proxy.git"
+    "url": "git://github.com/czM1K3/node-mjpeg-proxy.git"
   },
   "main": "./mjpeg-proxy",
   "devDependencies": {
-    "express": "3.1.x"
+    "express": "^4.17.1"
   },
   "engines": {
     "node": ">=0.8.0"
