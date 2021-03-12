@@ -1,0 +1,14 @@
+[Unit]
+Description=mjpeg-proxy
+
+[Service]
+ExecStart=/var/www/mjpeg-proxy/index.js
+Restart=always
+User=nobody
+Group=nogroup
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/var/www/mjpeg-proxy
+
+[Install]
+WantedBy=multi-user.target
